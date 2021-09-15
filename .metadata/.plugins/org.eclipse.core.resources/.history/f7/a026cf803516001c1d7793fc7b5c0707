@@ -1,0 +1,8 @@
+spring.datasource.url=CLEARDB_DATABASE_URL
+spring.datasource.username=root
+spring.datasource.password=12345678
+spring.profiles.active=prod
+
+spring.jpa.show-sql = false
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL5Dialect
